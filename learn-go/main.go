@@ -16,11 +16,17 @@ import (
 	routinechan "jianshangquan.com/myapp/routines/routine-chan"
 	routinemutex "jianshangquan.com/myapp/routines/routine-mutex"
 	"jianshangquan.com/myapp/slice"
+	trycatch "jianshangquan.com/myapp/try-catch"
 )
 
 
-
 func main(){
+	trycatch.TestTryCatch()
+}
+
+
+
+func passByRefTest(){
 	passbyref.PassByRefTest()
 }
 
